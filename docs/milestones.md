@@ -50,7 +50,7 @@ in `core`.
 - [x] Install a JDK (17 or 21), sbt, Node.js (for Scala.js tests); pick an editor setup
       (Metals + VS Code, or IntelliJ) and confirm go-to-definition works
 - [x] `git init`, `.gitignore` (target/, .bsp/, .metals/, .idea/, node_modules/)
-- [ ] Pin sbt version and the Scala 3 version (current LTS line); add `sbt-scalajs` and
+- [x] Pin sbt version and the Scala 3 version (current LTS line); add `sbt-scalajs` and
       `sbt-crossproject` plugins
 - [ ] Define `core` as a pure cross-project and `web` depending on `coreJS` + `scala-js-dom`
 - [ ] Add MUnit to `core`; write one trivial test; run `coreJVM/test` and `coreJS/test`
