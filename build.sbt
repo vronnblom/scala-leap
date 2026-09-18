@@ -8,7 +8,11 @@ lazy val core = crossProject(JSPlatform, JVMPlatform)
   .crossType(CrossType.Pure)
   .in(file("core"))
   .settings(
-    name := "impulse-core"
+    name := "impulse-core",
+    libraryDependencies ++= Seq(
+      "org.scalameta" %%% "munit"            % "1.3.6" % Test,
+      "org.scalameta" %%% "munit-scalacheck" % "1.3.1" % Test
+    )
   )
 
 // Browser shell: loop, rendering, input, assets. Scala.js only.

@@ -53,7 +53,7 @@ in `core`.
 - [x] Pin sbt version and the Scala 3 version (current LTS line); add `sbt-scalajs` and
       `sbt-crossproject` plugins
 - [x] Define `core` as a pure cross-project and `web` depending on `coreJS` + `scala-js-dom`
-- [ ] Add MUnit to `core`; write one trivial test; run `coreJVM/test` and `coreJS/test`
+- [x] Add MUnit to `core`; write one trivial test; run `coreJVM/test` and `coreJS/test`
 - [ ] `web`: main method that writes a value from `core` into the page; `fastLinkJS`; `index.html`
       that loads the output; serve it with any static server
 - [ ] Try `~fastLinkJS` and `~coreJVM/test` (watch mode)
