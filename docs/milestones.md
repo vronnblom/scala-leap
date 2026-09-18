@@ -57,7 +57,7 @@ in `core`.
 - [x] `web`: main method that writes a value from `core` into the page; `fastLinkJS`; `index.html`
       that loads the output; serve it with any static server
 - [x] Try `~fastLinkJS` and `~coreJVM/test` (watch mode)
-- [ ] Write a short README: how to build, test, run
+- [x] Write a short README: how to build, test, run
 
 **Scala concepts:** sbt basics (settings, projects, `dependsOn`, `%%%`), Scala 3 syntax
 (indentation vs braces — pick one and stay consistent), `@main`, packages, `val`/`def`, the REPL /
