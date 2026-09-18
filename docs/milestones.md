@@ -56,7 +56,7 @@ in `core`.
 - [x] Add MUnit to `core`; write one trivial test; run `coreJVM/test` and `coreJS/test`
 - [x] `web`: main method that writes a value from `core` into the page; `fastLinkJS`; `index.html`
       that loads the output; serve it with any static server
-- [ ] Try `~fastLinkJS` and `~coreJVM/test` (watch mode)
+- [x] Try `~fastLinkJS` and `~coreJVM/test` (watch mode)
 - [ ] Write a short README: how to build, test, run
 
 **Scala concepts:** sbt basics (settings, projects, `dependsOn`, `%%%`), Scala 3 syntax
