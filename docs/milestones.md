@@ -54,7 +54,7 @@ in `core`.
       `sbt-crossproject` plugins
 - [x] Define `core` as a pure cross-project and `web` depending on `coreJS` + `scala-js-dom`
 - [x] Add MUnit to `core`; write one trivial test; run `coreJVM/test` and `coreJS/test`
-- [ ] `web`: main method that writes a value from `core` into the page; `fastLinkJS`; `index.html`
+- [x] `web`: main method that writes a value from `core` into the page; `fastLinkJS`; `index.html`
       that loads the output; serve it with any static server
 - [ ] Try `~fastLinkJS` and `~coreJVM/test` (watch mode)
 - [ ] Write a short README: how to build, test, run

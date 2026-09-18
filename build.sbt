@@ -23,6 +23,9 @@ lazy val web = project
   .settings(
     name := "impulse-web",
     scalaJSUseMainModuleInitializer := true,
+    // Fixed output paths so index.html does not have to know the Scala version.
+    Compile / fastLinkJS / scalaJSLinkerOutputDirectory := target.value / "js" / "dev",
+    Compile / fullLinkJS / scalaJSLinkerOutputDirectory := target.value / "js" / "prod",
     libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "2.8.1"
   )
 
